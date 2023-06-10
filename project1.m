@@ -55,7 +55,7 @@ corryc = corrcoef(cntilde(1:T),jptilde(1:T)); corryc = corryc(1,2);
 
 disp(['Percent standard deviation of detrended log real GDP for Japan: ', num2str(ysd_cn),'.']); disp(' ')
 disp(['Percent standard deviation of detrended log real GDP for Canada: ', num2str(ysd_jp),'.']); disp(' ')
-disp(['Contemporaneous correlation between detrended log real GDP and PCE: ', num2str(corryc),'.']);
+disp(['Contemporaneous correlation between detrended log real GDP　for Japan　and detrended log real GDP for Canada : ', num2str(corryc),'.']);
 
 
 
